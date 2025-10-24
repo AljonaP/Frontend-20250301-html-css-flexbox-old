@@ -41,3 +41,11 @@
 .opdracht-3 li:nth-child(3) {
     align-self: flex-end;
 }
+
+/*deel 1, opdracht 4*/
+.opdracht-4 .flex-container {
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    gap: 10px;
+}
