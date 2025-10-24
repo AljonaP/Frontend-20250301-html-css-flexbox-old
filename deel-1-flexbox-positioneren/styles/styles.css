@@ -49,3 +49,25 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
+/*deel 1, opdracht 5*/
+.opdracht-5 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.opdracht-5 ul:first-child {
+    align-items: flex-start;
+}
+
+.opdracht-5 ul:last-child {
+    align-items: flex-end;
+}
