@@ -1,1 +1,6 @@
-/*Schrijf hier jouw CSS*/
+/*deel 1, opdracht 1*/
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
