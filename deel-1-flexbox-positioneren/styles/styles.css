@@ -4,3 +4,21 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+/*deel 1, opdracht 2*/
+[class^="opdracht-"] {
+    border: 3px, solid, #000; 
+}
+
+.opdracht-2 ul {
+  display: flex;
+  justify-content: space-between; 
+  align-items: stretch;           
+  list-style: none;              
+  padding: 0;
+  margin: 0;            
+}
+
+.opdracht-2 li {
+  flex: 1;                        
+}
