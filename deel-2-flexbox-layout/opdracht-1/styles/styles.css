@@ -1,1 +1,34 @@
-/*Schrijf hier jouw CSS*/
+/*deel 2, opdracht 1*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+
+main {
+    display: flex;
+    flex-basis: auto; /* in stappenplan was geadviseerd 'auto'*/
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+header, footer {
+    flex: 0 0 90px;
+}
+
+nav, aside {
+    flex: 0 0 20vw;
+}
+
+aside {
+    order: 2;
+}
+
+nav {
+    order: 3;
+}
+
+article {
+    flex: 0 0 60vw;
+    order: 1;
+}
