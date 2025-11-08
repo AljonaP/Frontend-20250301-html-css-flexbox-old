@@ -1,1 +1,31 @@
-/*Schrijf hier jouw CSS*/
+/*deel 2, opdracht 2*/
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 0;
+} 
+
+.col-1 {
+    flex: 0 0 20vh;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+header, footer {
+    flex: 0 0 150px;
+}
+
+article {
+    flex-grow: 1;
+}
