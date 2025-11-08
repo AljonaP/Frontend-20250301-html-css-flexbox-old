@@ -4,10 +4,16 @@ body {
     flex-direction: row;
     min-height: 100vh;
     margin: 0;
-} 
+}
 
 .col-1 {
-    flex: 0 0 20vh;
+    flex: 0 0 250px;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    position: sticky;
+    top: 0;
 }
 
 .col-2 {
@@ -22,7 +28,8 @@ main {
     flex: 1 1 auto;
 }
 
-header, footer {
+header,
+footer {
     flex: 0 0 150px;
 }
 
