@@ -1,1 +1,55 @@
-/*Schrijf hier jouw CSS*/
+/*deel 2, opdracht 4*/
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.outer-col-1 {
+    flex: 0 0 20vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    position: sticky;
+    top: 0;
+}
+
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 100vh;
+}
+
+header {
+    flex: 0 0 150px;
+}
+
+.inner-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    min-height: 0;
+}
+
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 0;
+}
+
+article {
+    flex: 1 1 auto;
+    overflow-y: auto; /*deze is nodig om te kunnen scrollen de article*/
+}
+
+footer {
+    flex: 0 0 150px;
+}
+
+.aside-1 {
+    flex: 0 0 20vw;
+}
